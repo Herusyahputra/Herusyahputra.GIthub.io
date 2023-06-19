@@ -38,43 +38,6 @@
     <input type="hidden" name="area" value="default" />
   </form>
 
-<form id="myForm">
-  <br>
-  <select name="cars" id="cars">
-    <option value="volvo">Moilapp-V1</option>
-    <option value="saab">Moilapp-V2</option>
-    <option value="opel">Moilapp-V3</option>
-    <option value="audi">Moilapp-V4.0</option>
-    <option value="audi">Moilapp-V4.1</option>
-  </select>
-  <input type="submit" value="Show">
-</form>
-
-<script>
-  document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevents the form from submitting
-
-    // Get the selected option value
-    var selectedOption = document.getElementById("cars").value;
-
-    // Redirect the user to the corresponding page
-    switch (selectedOption) {
-      case "volvo":
-        window.location.href = "https://github.com/Herusyahputra";
-        break;
-      case "saab":
-        window.location.href = "https://example.com/moilapp-v2";
-        break;
-      case "opel":
-        window.location.href = "v40_index.html";
-        break;
-      case "audi":
-        window.location.href = "index.html";
-        break;
-    }
-  });
-</script>
-
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Table of Contents:</span></p>

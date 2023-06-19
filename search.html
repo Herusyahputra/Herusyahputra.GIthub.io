@@ -40,15 +40,14 @@
     <input type="hidden" name="area" value="default" />
   </form>
 
-
 <form id="myForm">
   <br>
   <select name="cars" id="cars">
-    <option value="volvo">Moilapp-V1</option>
-    <option value="saab">Moilapp-V2</option>
-    <option value="opel">Moilapp-V3</option>
-    <option value="audi">Moilapp-V4.0</option>
-    <option value="audi">Moilapp-V4.1</option>
+    <option value="moilapp-v1">Moilapp-V1</option>
+    <option value="moilapp-v2">Moilapp-V2</option>
+    <option value="moilapp-v3">Moilapp-V3</option>
+    <option value="moilapp-v4.0">Moilapp-V4.0</option>
+    <option value="moilapp-v4.1">Moilapp-V4.1</option>
   </select>
   <input type="submit" value="Show">
 </form>
@@ -62,22 +61,24 @@
 
     // Redirect the user to the corresponding page
     switch (selectedOption) {
-      case "volvo":
-        window.location.href = "https://github.com/Herusyahputra";
+      case "moilapp-v1":
+        window.location.href = "v10_index.html";
         break;
-      case "saab":
-        window.location.href = "https://example.com/moilapp-v2";
+      case "moilapp-v2":
+        window.location.href = "v20_index.html";
         break;
-      case "opel":
+      case "moilapp-v3":
+        window.location.href = "v30_index.html";
+        break;
+      case "moilapp-v4.0":
         window.location.href = "v40_index.html";
         break;
-      case "audi":
+      case "moilapp-v4.1":
         window.location.href = "index.html";
         break;
     }
   });
 </script>
-
 
 
 </div>
