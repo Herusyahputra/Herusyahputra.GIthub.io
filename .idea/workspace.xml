@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7df31073-3546-4cd3-8aa0-d054deed9f35" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/api_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installation_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/installation_guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.html" beforeDir="false" afterPath="$PROJECT_DIR$/models.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moilutils.html" beforeDir="false" afterPath="$PROJECT_DIR$/moilutils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin_extention.html" beforeDir="false" afterPath="$PROJECT_DIR$/plugin_extention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/release_note.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/troubleshooting_issue.html" beforeDir="false" afterPath="$PROJECT_DIR$/troubleshooting_issue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_About.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_About.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_Overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_Overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_README.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_api_reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_api_reference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_contribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_contribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_installation_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_installation_guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_models.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_models.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_moilutils.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_moilutils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_plugin_extention.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_plugin_extention.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_py-modindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_py-modindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_release_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_release_note.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_troubleshooting_issue.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_troubleshooting_issue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v40_views.html" beforeDir="false" afterPath="$PROJECT_DIR$/v40_views.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views.html" beforeDir="false" afterPath="$PROJECT_DIR$/views.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RPFkc6IaubhN6PzG96ie2bXtk6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7df31073-3546-4cd3-8aa0-d054deed9f35" name="Changes" comment="" />
+      <created>1687143953198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687143953198</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
