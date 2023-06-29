@@ -40,25 +40,30 @@
     <input type="hidden" name="area" value="default" />
   </form>
 
-<style>
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+<script>
+  function redirectToPage() {
+    var selectedOption = document.getElementById("cars").value;
 
-  /* Additional styles for the form */
-  select {
-    width: 100%;
-    padding: 6px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    switch (selectedOption) {
+      case "moilapp-v1.0":
+        window.location.href = "https://herusyahputra.github.io/moilapp-v1.0/index.html";
+        break;
+      case "moilapp-v2.0":
+        window.location.href = "moilapp-v2.0/index.html";
+        break;
+      case "moilapp-v3.0":
+        window.location.href = "https://herusyahputra.github.io/moilapp-v3.0/index.html";
+        break;
+      case "moilapp-v4.0":
+        window.location.href = "https://herusyahputra.github.io/moilapp-v4.0/index.html";
+        break;
+      case "moilapp-v4.1":
+        window.location.href = "https://herusyahputra.github.io/";
+        break;
+    }
   }
+</script>
 
-  input[type="submit"] {
-    display: none;
-  }
-</style>
 <br>
 <!--<h3>Choice Version</h3>-->
 <form id="myForm">
