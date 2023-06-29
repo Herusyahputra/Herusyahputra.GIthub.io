@@ -5,16 +5,16 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Controller Package &mdash; MoilApp Documentation 4.1 documentation</title>
-      <link rel="stylesheet" href="static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="moilapp-v4.1/static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="moilapp-v4.1/static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
-    <script src="static/js/html5shiv.min.js"></script>
+    <script src="moilapp-v4.1/static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
-        <script src="static/doctools.js"></script>
-        <script src="static/sphinx_highlight.js"></script>
-    <script src="static/js/theme.js"></script>
+        <script data-url_root="./" id="documentation_options" src="moilapp-v4.1/static/documentation_options.js"></script>
+        <script src="moilapp-v4.1/static/doctools.js"></script>
+        <script src="moilapp-v4.1/static/sphinx_highlight.js"></script>
+    <script src="moilapp-v4.1/static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
 </head>
@@ -29,7 +29,7 @@
           
           <a href="index.html">
             
-              <img src="static/light-moilapp.png" class="logo" alt="Logo"/>
+              <img src="moilapp-v4.1/static/light-moilapp.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -46,7 +46,7 @@
 
   /* Additional styles for the form */
   select {
-    width: 40%;
+    width: 100%;
     padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -61,11 +61,11 @@
 <!--<h3>Choice Version</h3>-->
 <form id="myForm">
   <select name="cars" id="cars" onchange="redirectToPage()">
-    <option value="moilapp-v1">Moilapp-V1</option>
-    <option value="moilapp-v2">Moilapp-V2</option>
-    <option value="moilapp-v3">Moilapp-V3</option>
+    <option value="moilapp-v1.0">Moilapp-V1.0</option>
+    <option value="moilapp-v2.0">Moilapp-V2.0</option>
+    <option value="moilapp-v3.0">Moilapp-V3.0</option>
     <option value="moilapp-v4.0">Moilapp-V4.0</option>
-    <option value="moilapp-v4.1">Moilapp-V4.1</option>
+    <option selected="selected" value="moilapp-v4.1">Moilapp-V4.1</option>
   </select>
 </form>
 
@@ -74,17 +74,17 @@
     var selectedOption = document.getElementById("cars").value;
 
     switch (selectedOption) {
-      case "moilapp-v1":
-        window.location.href = "moilapp-v1.0/v10_index.html";
+      case "moilapp-v1.0":
+        window.location.href = "moilapp-v1.0/index.html";
         break;
-      case "moilapp-v2":
-        window.location.href = "moilapp-v2.0/v20_index.html";
+      case "moilapp-v2.0":
+        window.location.href = "moilapp-v2.0/index.html";
         break;
-      case "moilapp-v3":
-        window.location.href = "moilapp-v3.0/v30_index.html";
+      case "moilapp-v3.0":
+        window.location.href = "moilapp-v3.0/index.html";
         break;
       case "moilapp-v4.0":
-        window.location.href = "moilapp-v4.0/v40_index.html";
+        window.location.href = "moilapp-v4.0/index.html";
         break;
       case "moilapp-v4.1":
         window.location.href = "index.html";
@@ -509,7 +509,7 @@ that the user should close the preview or press ‘Esc’ on the keyboard to ret
 (<cite>True</cite>) or the original image (<cite>False</cite>). Defaults to <cite>True</cite>.</p>
 </dd>
 <dt class="field-even">Raises<span class="colon">:</span></dt>
-<dd class="field-even"><p>FileNotFoundError: If the base directory for saving images is not found.</p>
+<dd class="field-even"><p>FileNotFoundError: If the base directory for saving moilapp-v4.1/images is not found.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -533,10 +533,10 @@ and unchecks the Record Video button.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="controllers.control_main.Controller.load_saved_image_list">
 <span class="sig-name descname"><span class="pre">load_saved_image_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">load</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_main.html#Controller.load_saved_image_list"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_main.Controller.load_saved_image_list" title="Permalink to this definition"></a></dt>
-<dd><p>Loads saved images into the GUI’s list widget.</p>
+<dd><p>Loads saved moilapp-v4.1/images into the GUI’s list widget.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>load</strong> (<em>bool</em><em>, </em><em>optional</em>) – Whether to load the images into the list widget. Defaults to False.</p>
+<dd class="field-odd"><p><strong>load</strong> (<em>bool</em><em>, </em><em>optional</em>) – Whether to load the moilapp-v4.1/images into the list widget. Defaults to False.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>None</p>
@@ -1203,7 +1203,7 @@ sets the current index of the widget mode view to 1, and sets the state rubberba
 <dt class="sig sig-object py" id="controllers.control_main.Controller.onclick_clear_user_interface">
 <span class="sig-name descname"><span class="pre">onclick_clear_user_interface</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_main.html#Controller.onclick_clear_user_interface"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_main.Controller.onclick_clear_user_interface" title="Permalink to this definition"></a></dt>
 <dd><p>Clears the user interface and resets the app state to its default state.</p>
-<p>This function resets the app’s state to its default state, clears the displayed images, and resets the style
+<p>This function resets the app’s state to its default state, clears the displayed moilapp-v4.1/images, and resets the style
 of the mode buttons.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -2249,7 +2249,7 @@ Otherwise, displays a message that includes the plugin’s description.</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt class="sig sig-object py" id="controllers.control_result_image.ControlResultImage.zoom_in">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">zoom_in</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.zoom_in"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.zoom_in" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">moilapp-v4.1/static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">zoom_in</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.zoom_in"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.zoom_in" title="Permalink to this definition"></a></dt>
 <dd><p>Increases the current size by 100 and returns the new size.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -2266,7 +2266,7 @@ Otherwise, displays a message that includes the plugin’s description.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="controllers.control_result_image.ControlResultImage.zoom_out">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">zoom_out</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.zoom_out"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.zoom_out" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">moilapp-v4.1/static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">zoom_out</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.zoom_out"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.zoom_out" title="Permalink to this definition"></a></dt>
 <dd><p>Decreases the <cite>current_size</cite> by 100, unless it’s already below 640.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -2283,7 +2283,7 @@ Otherwise, displays a message that includes the plugin’s description.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="controllers.control_result_image.ControlResultImage.rotate_left">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rotate_left</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_angle</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.rotate_left"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.rotate_left" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">moilapp-v4.1/static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rotate_left</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_angle</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.rotate_left"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.rotate_left" title="Permalink to this definition"></a></dt>
 <dd><p>Rotates the image to the left by 5 degrees.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -2300,7 +2300,7 @@ Otherwise, displays a message that includes the plugin’s description.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="controllers.control_result_image.ControlResultImage.rotate_right">
-<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rotate_right</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_angle</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.rotate_right"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.rotate_right" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">moilapp-v4.1/static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rotate_right</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">current_angle</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/controllers/control_result_image.html#ControlResultImage.rotate_right"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#controllers.control_result_image.ControlResultImage.rotate_right" title="Permalink to this definition"></a></dt>
 <dd><p>Rotates the given angle to the right by 5 degrees.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
